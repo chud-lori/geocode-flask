@@ -1,12 +1,9 @@
 # Flask based app to get distance from MKAD
 
-Nothing.
-Prediction Heart Disease
-
 ## Requirements
 
 - Python 3.8
-- IDE (I use VScode)
+- IDE
 
 ## Set Up
 
@@ -39,8 +36,9 @@ flask run
 ## Run in docker
 ```bash
 docker build -t geocode-flask:1.0 .
-docker 
+docker run --name flaskgeo -d -p 5000:5000 --env FLASK_APP=setup.py --env FLASK_ENV=production geocode-flask:1.0
 ```
+Access `localhost:5000` and input the destination
 
 ## Contributing
 

@@ -7,9 +7,10 @@ class Geo(object):
     def __init__(self) -> None:
         self.log_name: str = f'{str(date.today())}.log'
         
-    def check_distance(self, origin, destination) -> bool:
-        matr = requests.get(f'https://maps.googleapis.com/maps/api/distancematrix/json?origins=place_id:{origin}&destinations=place_id:{destination}&key={Config.GEO_KEY}')
-        if value < 1:
+    @staticmethod
+    def check_distance(data) -> bool:
+        # data
+        if 0 < 1:
             # No log
             return False
         # Write log
@@ -25,6 +26,8 @@ class Geo(object):
         """
 
         distance: dict = requests.get(f'https://maps.googleapis.com/maps/api/distancematrix/json?origins=place_id:{origin_place_id}&destinations=place_id:{destination_place_id}&key={Config.GEO_KEY}').json()
+        # print(distance)
+        # print(distance.get('rows')[0].get('elements')[0].get('status'))
         if distance.get('rows')[0].get('elements')[0].get('status') != "OK":
             return ('Distance too far or not available', False)
 

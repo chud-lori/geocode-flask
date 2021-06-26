@@ -10,6 +10,9 @@ geo = Geo()
 
 @geo_bp.route('/')
 def index() -> dict:
+    """
+
+    """
     if request.args.get('destination') == None:
         return render_template('index.html')
     origin = 'Moscow%20Ring%20Road%20'
@@ -26,6 +29,8 @@ def index() -> dict:
     distance: int
     duration: int
     distance, duration = distance_result
+
+    
 
     result = {'data':{'distance': distance, 'duration': duration}, 'message': 'success', 'status':1}
 
