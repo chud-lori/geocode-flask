@@ -1,0 +1,7 @@
+[27-06-2021 09:49:11] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[27-06-2021 09:49:34] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[27-06-2021 09:49:34] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[27-06-2021 09:49:37] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'mkad'}, 'status': 200}
+[27-06-2021 09:49:38] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[27-06-2021 09:49:39] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[27-06-2021 09:49:39] LOG:{'Response': {'data': {'distance': 19412, 'duration': 1504}, 'message': 'success', 'status': 1}, 'status': 200}

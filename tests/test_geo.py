@@ -44,3 +44,9 @@ def test_route_not_found(client):
 
     assert response.status_code == 404
     assert b'NOT FOUND' in response.data
+
+def test_inside_origin(client):
+    response = client('/?destination=mkad')
+
+    assert response.status_code == 200
+    assert data['status'] == 3

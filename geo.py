@@ -4,16 +4,12 @@ import logging
 from datetime import date
 
 class Geo(object):
-    def __init__(self) -> None:
-        self.log_name: str = f'{str(date.today())}.log'
-        
     @staticmethod
-    def check_distance(data) -> bool:
-        # data
-        if 0 < 1:
+    def check_distance(distance, duration) -> bool:
+        
+        if distance < 1 and duration < 1:
             # No log
             return False
-        # Write log
         return True
     
     @staticmethod
@@ -26,8 +22,7 @@ class Geo(object):
         """
 
         distance: dict = requests.get(f'https://maps.googleapis.com/maps/api/distancematrix/json?origins=place_id:{origin_place_id}&destinations=place_id:{destination_place_id}&key={Config.GEO_KEY}').json()
-        # print(distance)
-        # print(distance.get('rows')[0].get('elements')[0].get('status'))
+
         if distance.get('rows')[0].get('elements')[0].get('status') != "OK":
             return ('Distance too far or not available', False)
 
