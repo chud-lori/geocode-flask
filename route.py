@@ -20,18 +20,18 @@ def index() -> dict:
     if request.args.get('destination') == None:
         write_log({'message': 'access page'}, 200, 'Request')
         return render_template('index.html')
-    origin = 'Moscow%20Ring%20Road%20'
-    location: str = request.args.get('destination')
-    write_log({'message': 'send destinatnion', 'destination': location}, 200, 'Request')
+    origin: str = 'Moscow%20Ring%20Road%20'
+    destination: str = request.args.get('destination')
+    write_log({'message': 'send destinatnion', 'destination': destination}, 200, 'Request')
     
-    origin: tuple = Geo.get_location(origin)
-    destination: tuple = Geo.get_location(location)
-    if destination[-1] == False:
+    origin_location: tuple = Geo.get_location(origin)
+    destination_location: tuple = Geo.get_location(destination)
+    if destination_location[-1] == False:
         response: dict = {'message': 'location not found', 'status': 0}
         write_log(response, 404)
         return jsonify(response), 404
     
-    distance_result = Geo.get_distance(origin[1], destination[1])
+    distance_result = Geo.get_distance(origin_location[1], destination_location[1])
     
     if distance_result[-1] == False and distance_result[-1] is not 0:
         response: dict = {'message': 'distance not found', 'status': 2}
@@ -41,8 +41,8 @@ def index() -> dict:
     duration: int
     distance, duration = distance_result
 
-    is_inside: bool = geo.check_distance(distance, duration)
-    if not is_inside:
+    is_inside: bool = geo.is_inside(origin, destination)
+    if is_inside:
         response: dict = {'message': 'the destination inside in origin\'s area', 'status': 3}
         write_log(response, 200)
         return jsonify(response), 200

@@ -1,0 +1,131 @@
+[28-06-2021 12:54:13] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 12:54:13] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 12:54:13] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 12:54:13] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 12:54:16] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 12:54:16] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[28-06-2021 12:54:16] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[28-06-2021 12:54:17] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[28-06-2021 12:54:17] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 12:56:57] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 12:57:21] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 12:58:00] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 12:58:00] LOG:{'Response': {'data': {'distance': 19412, 'duration': 1504}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 12:58:17] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 12:58:18] LOG:{'Response': {'data': {'distance': 19412, 'duration': 1504}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 12:58:19] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'mkad'}, 'status': 200}
+[28-06-2021 12:58:20] LOG:{'Response': {'data': {'distance': 0, 'duration': 0}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 12:58:52] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 12:58:52] LOG:{'Response': {'data': {'distance': 19412, 'duration': 1504}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 12:58:57] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'mkad'}, 'status': 200}
+[28-06-2021 12:58:57] LOG:{'Response': {'data': {'distance': 0, 'duration': 0}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 12:59:46] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'mkad'}, 'status': 200}
+[28-06-2021 12:59:47] LOG:{'Response': {'data': {'distance': 0, 'duration': 0}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 13:00:15] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'mkad'}, 'status': 200}
+[28-06-2021 13:00:15] LOG:{'Response': {'data': {'distance': 0, 'duration': 0}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 13:01:26] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'mkad'}, 'status': 200}
+[28-06-2021 13:01:27] LOG:{'Response': {'data': {'distance': 0, 'duration': 0}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 17:44:13] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'mkad'}, 'status': 200}
+[28-06-2021 17:44:15] LOG:{'Response': {'data': {'distance': 0, 'duration': 0}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 17:44:18] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 17:44:19] LOG:{'Response': {'data': {'distance': 19412, 'duration': 1504}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 17:44:26] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 17:44:27] LOG:{'Response': {'data': {'distance': 19412, 'duration': 1504}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 17:44:47] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 17:44:48] LOG:{'Response': {'data': {'distance': 19412, 'duration': 1504}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 17:46:02] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 17:46:02] LOG:{'Response': {'data': {'distance': 19412, 'duration': 1504}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 17:46:25] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 17:46:25] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 17:46:52] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'delanggu'}, 'status': 200}
+[28-06-2021 17:46:54] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 17:46:57] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'kartasura'}, 'status': 200}
+[28-06-2021 17:46:58] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 17:47:15] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'sukoharjo'}, 'status': 200}
+[28-06-2021 17:47:17] LOG:{'Response': {'data': {'distance': 29431, 'duration': 2942}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 17:47:35] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'boyolali'}, 'status': 200}
+[28-06-2021 17:47:36] LOG:{'Response': {'data': {'distance': 31972, 'duration': 3347}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 17:47:40] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'kartasura'}, 'status': 200}
+[28-06-2021 17:47:41] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 17:47:47] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'kartasura sukoharjo'}, 'status': 200}
+[28-06-2021 17:47:47] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 17:49:02] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'kartasura sukoharjo'}, 'status': 200}
+[28-06-2021 17:49:02] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 17:49:18] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'yogyakarta'}, 'status': 200}
+[28-06-2021 17:49:20] LOG:{'Response': {'data': {'distance': 39906, 'duration': 4051}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 17:51:01] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 17:51:01] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 17:51:01] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 17:51:01] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 17:51:02] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 17:51:03] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 17:51:03] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[28-06-2021 17:51:03] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[28-06-2021 17:51:04] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[28-06-2021 17:51:04] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 17:51:04] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 17:52:24] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 17:52:24] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 17:52:25] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 17:52:25] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 17:52:25] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[28-06-2021 17:52:25] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[28-06-2021 17:52:25] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[28-06-2021 17:52:25] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 17:52:26] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 19:59:53] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'pabelan kartasura'}, 'status': 200}
+[28-06-2021 19:59:57] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[28-06-2021 20:00:12] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'pabelan kartasura'}, 'status': 200}
+[28-06-2021 20:00:14] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 20:21:54] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'pabelan kartasura'}, 'status': 200}
+[28-06-2021 20:21:56] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 23:36:36] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 23:36:36] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 23:36:36] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 23:36:36] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 23:36:37] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[28-06-2021 23:36:37] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[28-06-2021 23:36:38] LOG:{'Response': {'data': {'distance': 560970, 'duration': 25661}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 23:36:38] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'klaten'}, 'status': 200}
+[28-06-2021 23:36:40] LOG:{'Response': {'data': {'distance': 52936, 'duration': 5307}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 23:37:10] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'klaten'}, 'status': 200}
+[28-06-2021 23:37:11] LOG:{'Response': {'data': {'distance': 52936, 'duration': 5307}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 23:37:21] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'colomadu'}, 'status': 200}
+[28-06-2021 23:37:22] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 23:37:26] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'pabelan'}, 'status': 200}
+[28-06-2021 23:37:27] LOG:{'Response': {'data': {'distance': 115631, 'duration': 9770}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 23:37:46] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'kartasura'}, 'status': 200}
+[28-06-2021 23:37:47] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 23:42:55] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 23:42:55] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 23:42:56] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 23:42:56] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 23:42:56] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[28-06-2021 23:42:56] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[28-06-2021 23:42:57] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[28-06-2021 23:42:57] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 23:42:58] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 23:43:19] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 23:43:19] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 23:43:19] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 23:43:19] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 23:43:20] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[28-06-2021 23:43:20] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[28-06-2021 23:43:20] LOG:{'Response': {'data': {'distance': 'Distance too far or not available', 'duration': False}, 'message': 'success', 'status': 1}, 'status': 200}
+[28-06-2021 23:43:20] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 23:43:21] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 23:43:52] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'kartasura'}, 'status': 200}
+[28-06-2021 23:43:52] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[28-06-2021 23:44:11] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'mkad'}, 'status': 200}
+[28-06-2021 23:44:12] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 23:44:25] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'mkad'}, 'status': 200}
+[28-06-2021 23:44:26] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[28-06-2021 23:44:39] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 23:44:39] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 23:44:39] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[28-06-2021 23:44:39] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[28-06-2021 23:44:39] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[28-06-2021 23:44:39] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[28-06-2021 23:44:40] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[28-06-2021 23:44:40] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[28-06-2021 23:44:41] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
