@@ -43,4 +43,9 @@ def test_inside_origin(client):
     assert response.status_code == 200
     assert data['status'] == 3
 
+def test_destination_empty(client):
+    response = client.get('/?destination=')
+
+    assert response.status_code == 302
+
     

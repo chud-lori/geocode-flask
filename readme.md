@@ -16,7 +16,7 @@ Set up environment variable from root project directory
 Set for development mode
 
 ```bash
-export FLASK_ENV=production
+export FLASK_ENV=development
 export FLASK_APP=setup.py
 ```
 
@@ -39,6 +39,16 @@ docker build -t geocode-flask:1.0 .
 docker run --name flaskgeo -d -p 5000:5000 --env FLASK_APP=setup.py --env FLASK_ENV=production geocode-flask:1.0
 ```
 Access `localhost:5000` and input the destination
+
+## How to use
+* Make sure the application running well using above instructions
+* Access `http://localhost:5000`
+* Type the destination and hit 'Get'
+* The result will served in json format if valid, otherwise will return with several status code, list of status code
+    - 0: location or destination not found
+    - 1: resulting destination and origin distance
+    - 2: distance between origin and destination not found, destination might too far from origin
+    - 3: destination location is inside origin's area
 
 ## Contributing
 

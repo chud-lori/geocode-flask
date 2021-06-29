@@ -1,0 +1,51 @@
+[29-06-2021 14:44:01] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[29-06-2021 14:44:01] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[29-06-2021 14:44:01] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[29-06-2021 14:44:01] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[29-06-2021 14:44:02] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[29-06-2021 14:44:02] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[29-06-2021 14:44:03] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[29-06-2021 14:44:03] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[29-06-2021 14:44:04] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[29-06-2021 14:59:37] LOG:{'Request': {'message': 'send destinatnion', 'destination': ''}, 'status': 200}
+[29-06-2021 14:59:38] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[29-06-2021 15:00:01] LOG:{'Request': {'message': 'send destinatnion', 'destination': ''}, 'status': 200}
+[29-06-2021 15:00:01] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[29-06-2021 15:00:11] LOG:{'Request': {'message': 'send destinatnion', 'destination': ''}, 'status': 200}
+[29-06-2021 15:00:11] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[29-06-2021 15:01:50] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[29-06-2021 15:05:12] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[29-06-2021 15:05:12] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[29-06-2021 15:05:13] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[29-06-2021 15:05:13] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[29-06-2021 15:05:13] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[29-06-2021 15:05:13] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[29-06-2021 15:05:14] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[29-06-2021 15:05:14] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[29-06-2021 15:05:15] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[29-06-2021 15:07:22] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[29-06-2021 15:07:22] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[29-06-2021 15:07:23] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[29-06-2021 15:07:23] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[29-06-2021 15:07:23] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[29-06-2021 15:07:23] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[29-06-2021 15:07:24] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[29-06-2021 15:30:38] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[29-06-2021 15:30:38] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[29-06-2021 15:30:39] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[29-06-2021 15:30:39] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[29-06-2021 15:30:39] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[29-06-2021 15:30:39] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[29-06-2021 15:30:40] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[29-06-2021 15:30:40] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[29-06-2021 15:30:41] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[29-06-2021 15:32:18] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[29-06-2021 15:37:51] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[29-06-2021 15:37:51] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[29-06-2021 15:37:51] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[29-06-2021 15:37:51] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[29-06-2021 15:37:51] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[29-06-2021 15:37:51] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[29-06-2021 15:37:52] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[29-06-2021 15:37:52] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[29-06-2021 15:37:52] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
