@@ -1,0 +1,7 @@
+[16-08-2021 13:59:29] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[16-08-2021 13:59:37] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'a\\nlori'}, 'status': 200}
+[16-08-2021 13:59:39] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[16-08-2021 14:08:55] LOG:{'2021-08-16.log': {'Request': {'message': 'send destinatnion', 'destination': 'klaten\\t'}, 'status': 200}}
+[16-08-2021 14:08:57] LOG:{'2021-08-16.log': {'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}}
+[16-08-2021 14:09:37] LOG:{'DESTINATION_REQUEST': {'Request': {'message': 'send destinatnion', 'destination': 'klaten\\tkotaku'}, 'status': 200}}
+[16-08-2021 14:09:38] LOG:{'DESTINATION_RESPONSE': {'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}}

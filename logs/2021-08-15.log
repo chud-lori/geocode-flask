@@ -1,0 +1,20 @@
+[15-08-2021 20:29:27] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[15-08-2021 20:29:27] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[15-08-2021 20:29:27] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[15-08-2021 20:29:27] LOG:{'Request': {'message': 'send destinatnion', 'destination': '129w92'}, 'status': 200}
+[15-08-2021 20:29:27] LOG:{'Response': {'message': 'location not found', 'status': 0}, 'status': 404}
+[15-08-2021 20:29:27] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[15-08-2021 20:29:28] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[15-08-2021 20:29:28] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[15-08-2021 20:29:30] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[15-08-2021 20:29:47] LOG:{'Request': {'message': 'access page'}, 'status': 200}
+[15-08-2021 20:29:54] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[15-08-2021 20:29:54] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[15-08-2021 20:30:43] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'moscow'}, 'status': 200}
+[15-08-2021 20:30:44] LOG:{'Response': {'message': "the destination inside in origin's area", 'status': 3}, 'status': 200}
+[15-08-2021 20:30:59] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'jakarta'}, 'status': 200}
+[15-08-2021 20:30:59] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[15-08-2021 20:31:02] LOG:{'Request': {'message': 'send destinatnion', 'destination': 'j'}, 'status': 200}
+[15-08-2021 20:31:03] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
+[15-08-2021 20:31:06] LOG:{'Request': {'message': 'send destinatnion', 'destination': '02'}, 'status': 200}
+[15-08-2021 20:31:07] LOG:{'Response': {'message': 'distance not found', 'status': 2}, 'status': 404}
